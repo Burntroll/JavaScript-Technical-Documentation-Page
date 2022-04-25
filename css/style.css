@@ -72,6 +72,7 @@ a {
 #main-doc {
     margin-left: 300px;
     display: flex;
+    flex-direction: column;
     background-color: aquamarine;
     padding: 2rem 3rem;
 }
@@ -81,8 +82,12 @@ article {
     margin-left: 1rem;
 }
 
-ul {
+.section__ul {
     margin-left: 3.5rem;
+}
+
+.section__ul li {
+    margin-bottom: 1rem;
 }
 
 p {
