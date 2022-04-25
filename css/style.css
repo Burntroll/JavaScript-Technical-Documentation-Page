@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-li {
-    list-style: none;
-  }
-
 a {
     color: #000;
     text-decoration: none;
@@ -18,12 +14,12 @@ a {
     color: #4d4e53;
     background-color: #ffffff23;
     font-family: 'Open Sans', Arial, sans-serif;
-    line-height: 1.5;
+    line-height: 1.8;
   }
 
-  /**************
-  *** NAV-BAR ***
-  **************/
+/**************
+*** NAV-BAR ***
+**************/
   #navbar {
     position: fixed;
     min-width: 290px;
@@ -69,3 +65,26 @@ a {
     cursor: pointer;
   }
   
+/***************
+*** MAIN DOC ***
+***************/
+
+#main-doc {
+    margin-left: 300px;
+    display: flex;
+    background-color: aquamarine;
+    padding: 2rem 3rem;
+}
+
+article {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+ul {
+    margin-left: 3.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
