@@ -137,26 +137,51 @@
         </section>
     <!-- END HELLO WORLD SECTION -->
     <!-- VARIABLES SECTION -->
-    <section class="main-section" id="Variables">
-        <header>Variables</header>
-        <p>
-          You use variables as symbolic names for values in your application. The
-          names of variables, called identifiers, conform to certain rules.
-        </p>
-        <p>
-          A JavaScript identifier must start with a letter, underscore (_), or
-          dollar sign ($); subsequent characters can also be digits (0-9). Because
-          JavaScript is case sensitive, letters include the characters &quot;A&quot; through
-          &quot;Z&quot; (uppercase) and the characters &quot;a&quot; through &quot;z&quot; (lowercase).
-        </p>
-        <p>
-          You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers.
-          You can also use the Unicode escape sequences as characters in
-          identifiers. Some examples of legal names are Number_hits, temp99, and
-          _name.
-        </p>
-      </section>
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p>
+            You use variables as symbolic names for values in your application. The
+            names of variables, called identifiers, conform to certain rules.
+            </p>
+            <p>
+            A JavaScript identifier must start with a letter, underscore (_), or
+            dollar sign ($); subsequent characters can also be digits (0-9). Because
+            JavaScript is case sensitive, letters include the characters &quot;A&quot; through
+            &quot;Z&quot; (uppercase) and the characters &quot;a&quot; through &quot;z&quot;  (lowercase).
+            </p>
+            <p>
+            You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers.
+            You can also use the Unicode escape sequences as characters in
+            identifiers. Some examples of legal names are Number_hits, temp99, and
+            _name.
+            </p>
+        </section>
     <!-- END VARIABLES SECTION -->
+    <!-- DECLARING VARIABLES SECTION -->
+        <section class="main-section" id="Declaring_variables">
+            <header>Declaring variables</header>
+            <article>
+            You can declare a variable in three ways:
+            <p>
+                With the keyword var. For example, <code>var x = 42.</code> This syntax
+                can be used to declare both local and global variables.
+            </p>
+            <p>
+                By simply assigning it a value. For example, <code>x = 42.</code> This
+                always declares a global variable. It generates a strict JavaScript
+                warning. You shouldn't use this variant.
+            </p>
+            <p>
+                With the keyword let. For example,<code> let y = 13.</code> This syntax
+                can be used to declare a block scope local variable. See Variable scope
+                below.
+            </p>
+            </article>
+        </section>
+    <!-- END DECLARING VARIABLES SECTION -->
+    <!-- VARIABLE SCOPE SECTION -->
+
+    <!-- END VARIABLE SCOPE SECTION -->
     </main>
 </body>
 </html>
